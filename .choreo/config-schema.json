@@ -1,1 +1,41 @@
-{"$schema":"http://json-schema.org/draft-07/schema#","type":"object","properties":{},"additionalProperties":false}
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "lahiru123": {
+      "type": "object",
+      "properties": {
+        "police_check_api_pv": {
+          "type": "object",
+          "properties": {
+            "host": {
+              "type": "string",
+              "description": ""
+            },
+            "user": {
+              "type": "string",
+              "description": ""
+            },
+            "password": {
+              "type": "string",
+              "description": ""
+            },
+            "database": {
+              "type": "string",
+              "description": ""
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "host",
+            "user",
+            "password",
+            "database"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
